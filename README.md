@@ -4,12 +4,12 @@ Este proyecto es una aplicación de consulta del clima desarrollada con **React*
 
 ## Características
 
-- **React + TypeScript:** Desarrollo utilizando las últimas prácticas de React con tipado fuerte de TypeScript para asegurar un código más robusto y fácil de mantener.
-- **Vite:** Construcción del proyecto con Vite, lo que garantiza tiempos de carga rápidos y una excelente experiencia de desarrollo.
-- **API de OpenWeather:** Consulta y muestra los datos meteorológicos en tiempo real obtenidos de la API de OpenWeather.
-- **CSS Modules:** Estilizado modular con CSS Modules para asegurar un estilo aislado y sin conflictos entre componentes.
-- **Zod:** Validación y tipado de los resultados de la API usando Zod, lo que permite un manejo seguro y tipado de los datos recibidos.
-- **React Hook Form:** Manejo y validación de formularios utilizando React Hook Form para una experiencia de usuario fluida y validación eficiente.
+- **React + TypeScript:** se desarrolló utilizando las últimas prácticas de React con tipado fuerte de TypeScript para asegurar un código más robusto y fácil de mantener.
+- **Vite:** La construcción con Vite garantiza tiempos de carga rápidos y una excelente experiencia de desarrollo.
+- **API de OpenWeather:** Se consulta y muestra los datos meteorológicos en tiempo real obtenidos de la API de OpenWeather.
+- **CSS Modules:** Se utiliza CSS Modules para asegurar un estilo aislado y sin conflictos entre componentes.
+- **Zod:** Para la validación y tipado de los resultados de la API se utilizó Zod, lo que permite un manejo seguro y tipado de los datos recibidos.
+- **React Hook Form:** Se manejan y validan los formularios utilizando React Hook Form para una experiencia de usuario fluida y validación eficiente.
 
 Actualmente, dos plugins oficiales están disponibles:
 
