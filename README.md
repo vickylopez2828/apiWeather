@@ -2,6 +2,9 @@
 
 Este proyecto es una aplicación de consulta del clima desarrollada con **React** y **TypeScript**, utilizando **Vite** como herramienta de construcción. La aplicación se conecta a la API de **OpenWeather** para obtener información meteorológica en tiempo real y mostrarla al usuario de una manera intuitiva y moderna.
 
+##Deploy
+Fue deployada en Netlify, se puede acceder desde la siguiente url: https://bright-centaur-486f6e.netlify.app/
+
 ## Características
 
 - **React + TypeScript:** se desarrolló utilizando las últimas prácticas de React con tipado fuerte de TypeScript para asegurar un código más robusto y fácil de mantener.
