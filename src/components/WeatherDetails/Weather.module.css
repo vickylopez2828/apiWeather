@@ -1,0 +1,30 @@
+.container{
+    
+    background-color: var(--white);
+    padding: 2rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+}
+.city{
+    color: var(--primary);
+}
+.current{
+    font-size: 6rem;
+    font-weight: 900;
+    margin: 0;
+}
+.temperatures{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.temperatures p{
+    font-weight: 900;
+}
+
+.temperatures span{
+    font-weight: 400;
+}

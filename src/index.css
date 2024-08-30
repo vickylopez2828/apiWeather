@@ -1,0 +1,23 @@
+:root{
+  --white: #fff;
+  --primary: #f59e0b
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Outfit', sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: var(--white);
+  font-size: 2rem;
+  
+}
+body img{
+
+}
