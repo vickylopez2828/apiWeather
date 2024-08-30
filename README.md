@@ -1,17 +1,26 @@
-# React + TypeScript + Vite
+# Proyecto de Clima con React, TypeScript y Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación de consulta del clima desarrollada con **React** y **TypeScript**, utilizando **Vite** como herramienta de construcción. La aplicación se conecta a la API de **OpenWeather** para obtener información meteorológica en tiempo real y mostrarla al usuario de una manera intuitiva y moderna.
 
-Currently, two official plugins are available:
+## Características
+
+- **React + TypeScript:** Desarrollo utilizando las últimas prácticas de React con tipado fuerte de TypeScript para asegurar un código más robusto y fácil de mantener.
+- **Vite:** Construcción del proyecto con Vite, lo que garantiza tiempos de carga rápidos y una excelente experiencia de desarrollo.
+- **API de OpenWeather:** Consulta y muestra los datos meteorológicos en tiempo real obtenidos de la API de OpenWeather.
+- **CSS Modules:** Estilizado modular con CSS Modules para asegurar un estilo aislado y sin conflictos entre componentes.
+- **Zod:** Validación y tipado de los resultados de la API usando Zod, lo que permite un manejo seguro y tipado de los datos recibidos.
+- **React Hook Form:** Manejo y validación de formularios utilizando React Hook Form para una experiencia de usuario fluida y validación eficiente.
+
+Actualmente, dos plugins oficiales están disponibles:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Expansión de la configuración de ESLint
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Si estás desarrollando una aplicación de producción, te recomendamos actualizar la configuración para habilitar reglas de lint con conocimiento de tipos:
 
-- Configure the top-level `parserOptions` property like this:
+- Configura la propiedad `parserOptions` de nivel superior de esta manera:
 
 ```js
 export default {
@@ -25,6 +34,6 @@ export default {
 }
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Reemplaza `plugin:@typescript-eslint/recommended` con `plugin:@typescript-eslint/recommended-type-checked` o `plugin:@typescript-eslint/strict-type-checked`
+- Opcionalmente, agrega `plugin:@typescript-eslint/stylistic-type-checked`
+- Instala [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) y añade `plugin:react/recommended` & `plugin:react/jsx-runtime` a la lista de `extends`
